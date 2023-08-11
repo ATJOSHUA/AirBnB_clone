@@ -207,7 +207,8 @@ class HBNBCommand(cmd.Cmd):
                 if attribute in attributes:
                     value = attributes[attribute](value)
                 elif cast:
-                    try:
+                    
+		try:
                         value = cast(value)
                     except ValueError:
                         pass  # fine, stay a string then

@@ -169,4 +169,4 @@ The recognizable commands by the interpreter are the following:
 
 ## Author
 
-Yonas Leykun
+Akinwale Joshua | Email |[ATJOSHUA](mailto:tjoshakinwale7@gmail.com)

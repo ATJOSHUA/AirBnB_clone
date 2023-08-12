@@ -171,4 +171,4 @@ The recognizable commands by the interpreter are the following:
 
 Akinwale Joshua | Email: [ATJOSHUA](mailto:tjoshakinwale7@gmail.com) 
 
-Richard codemonger | Github: [](mailto:kumwendamtende@gmail.com)
+Richard codemonger | Github: [Mtende265](mailto:kumwendamtende@gmail.com)

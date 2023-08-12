@@ -170,3 +170,4 @@ The recognizable commands by the interpreter are the following:
 ## Author
 
 Akinwale Joshua | Email |[ATJOSHUA](mailto:tjoshakinwale7@gmail.com)
+Richard codemonger | Github | [Mtende265] (mailto:kumwendamtende@gmail.com)

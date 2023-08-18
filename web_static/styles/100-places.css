@@ -1,177 +1,143 @@
-section.places {
-    position: relative;
-    text-align: center;
-    padding-bottom: 50px;
+.places {
+	justify-content: center;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 5px;
 }
-section.places h1 {
-    position: relative;
-    font-size: 30px;
-    text-align: left;
-    margin-left: 20px;
-    margin-top: 30px;
-    margin-bottom: 0;
+.places h1 {
+	font-size: 30px;
 }
-section.places article {
-    position: relative;
-    width: 390px;
-    height: 620px;
-    padding: 20px;
-    padding-top: 0;
-    padding-bottom: 15px;
-    margin: 20px;
-    border: 1px solid #FF5A5F;
-    border-radius: 4px;
-    display: inline-block;
+.listing {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 8%;
 }
-section.places article h2 {
-    font-size: 30px;
-    text-align: center;
+.places article {
+	width: 390px;
+	padding: 20px;
+	margin: 20px;
+	border: 1px solid #ff5a5f;
+	border-radius: 4px;
 }
-section.places article div.price_by_night {
-    position: absolute;
-    color: #FF5A5F;
-    border: 4px solid #FF5A5F;
-    border-radius:50%;
-    min-width: 60px;
-    height: 60px;
-    font-size: 30px;
-    right: 20px;
-    top: 10px;
-    line-height: 60px;
+.places h2 {
+	font-size: 30px;
+	text-align: center;
+	margin: auto;
 }
-section.places article div.information {
-    position: relative;
-    height: 80px;
-    border-top: 1px solid #DDDDDD;
-    border-bottom: 1px solid #DDDDDD;
+.list-motel{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
-section.places article div.information div {
-    display: inline-block;
+.price_by_night {
+	align-items: center;
+	min-width: 60px;
+	height: 60px;
+	font-size: 30px;
+	color: #ff5a5f;
+	border: 4px solid #ff5a5f;
+	border-radius: 50%;
+	padding: 5px;
+	justify-content: center;
+
 }
-section.places article div.information div.max_guest {
-    position: relative;
-    width: 100px;
-    top: 55px;
+.price_by_night p {
+	margin-top: 15px;
+	text-align: center;
 }
-section.places article div.information div.max_guest::before {
-    position: absolute;
-    left: 25px;
-    top: -50px;
-    content: url(../images/icon_group.png);
+
+.information {
+	height: 80px;
+	border-top:1px solid #dddddd;
+	border-bottom: 1px solid #dddddd;
+	display: flex;
+	justify-content: center;
 }
-section.places article div.information div.number_rooms {
-    position: relative;
-    width: 100px;
-    top: 55px;
+
+.information p {
+	padding-top: 35px;
+	text-align: center;
 }
-section.places article div.information div.number_rooms::before {
-    position: absolute;
-    left: 25px;
-    top: -50px;
-    content: url(../images/icon_bed.png);
+.max_guest, .number_rooms, .number_bathrooms {
+	width: 100px;
+} 
+.max_guest {
+	background: url('../images/icon_group.png') no-repeat;
+	margin-top: 6px;
+	background-position-x: center ;
 }
-section.places article div.information div.number_bathrooms {
-    position: relative;
-    width: 100px;
-    top: 55px;
+.number_rooms {
+	background: url('../images/icon_bed.png') no-repeat;
+	margin-top: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background-position-x:center ;
 }
-section.places article div.information div.number_bathrooms::before {
-    position: absolute;
-    left: 25px;
-    top: -50px;
-    content: url(../images/icon_bath.png);
+.number_bathrooms {
+	background: url('../images/icon_bath.png') no-repeat;
+	margin-top: 6px;
+	background-position-x: center;
 }
-section.places article div.user {
-    position: relative;
-    top: 15px;
-    text-align: left;
+.places .user {
+	margin: 20px auto 20px auto;
 }
-section.places article div.description {
-    position: relative;
-    top: 20px;
-    text-align: left;
+
+footer {
+	position: relative;
 }
-section.places article div.amenities {
-    position: relative;
-    margin-top: 40px;
-    text-align: left;
+.amenities ul, .reviews ul {
+	list-style-type: none;
+	padding-left: 0px;
 }
-section.places article div.amenities h2 {
-    position: relative;
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-    text-align: left;
-    padding-bottom: 10px;
+.amenities li {
+	padding-bottom: 3px;
+	text-indent: 30px;
 }
-section.places article div.amenities ul {
-    position: relative;
-    list-style: none;
-    padding: 0;
+.reviews li {
+	padding-bottom: 3px;
 }
-section.places article div.amenities ul li {
-    position: relative;
-    top: 3px;
-    padding-bottom: 10px;
-    padding-left: 30px;
+.amenities h2, .reviews h2{
+	font-size: 16px;
+	border-bottom: 1px solid #dddddd;
+	min-height: 0;
+	width: 100%;
+	text-align: left;
 }
-section.places article div.amenities ul div.icon_tv {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../images/icon_tv.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
+.pat {
+	background: url('../images/icon_pets.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
 }
-section.places article div.amenities ul div.icon_wifi {
-    position: absolute;
-    top: 26px;
-    left: 0px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../images/icon_wifi.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
+.tv {
+	background: url('../images/icon_tv.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
 }
-section.places article div.amenities ul div.icon_pets {
-    position: absolute;
-    top: 52px;
-    left: 0px;
-    height: 50px;
-    width: 50px;
-    background-image: url(../images/icon_pets.png);
-    background-repeat: no-repeat;
-    background-size: 40%;
+.wifi {
+	background: url('../images/icon_wifi.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
 }
-section.places article div.reviews {
-    position: relative;
-    margin-top: 40px;
-    text-align: left;
+.air {
+	background: url('../images/air-conditioner1.png') no-repeat;
+	background-origin: content-box;
+	background-size: contain;
 }
-section.places article div.reviews h2 {
-    position: relative;
-    font-size: 16px;
-    border-bottom: 1px solid #DDDDDD;
-    text-align: left;
-    padding-bottom: 10px;
+.reviews {
+	margin-top: 40px;
+	width: 100%;
+	flex: 1;
 }
-section.places article div.reviews ul {
-    list-style: none;
-    padding: 0;
-}
-section.places article div.reviews ul li h3 {
-    position: relative;
-    font-size: 14px;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-}
-section.places article div.reviews ul li p {
-    position: relative;
-    font-size: 12px;
-    text-align: left;
-    margin: 0;
-    padding: 0;
-    padding-bottom: 10px
+.reviews h3 {
+	font-size: 14px;
+	text-align: left;
+	padding-left: 0;
+} 
+.reviews p{
+	font-size: 12px;
+	margin-top: -10px;
 }

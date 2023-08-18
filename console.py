@@ -207,13 +207,13 @@ class HBNBCommand(cmd.Cmd):
                 if attribute in attributes:
                     value = attributes[attribute](value)
                 elif cast:
-                    
-		try:
-                        value = cast(value)
-                    except ValueError:
-                        pass  # fine, stay a string then
-                setattr(storage.all()[key], attribute, value)
-                storage.all()[key].save()
+
+            try:
+                value = cast(value)
+            except ValueError:
+                pass  # fine, stay a string then
+            setattr(storage.all()[key], attribute, value)
+            storage.all()[key].save()
 
 
 if __name__ == '__main__':
